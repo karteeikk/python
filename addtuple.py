@@ -1,0 +1,13 @@
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+y = list(thistuple)
+y.append("orange")
+y.remove("banana")
+thistuple = tuple(y)
+print(thistuple)
+
+thiss=(1,2,3,4,6,5,6)
+x=thiss.count(6)
+z=thiss.index(6)
+print(z)
+print(x)

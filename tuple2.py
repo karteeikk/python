@@ -1,0 +1,7 @@
+this=("apple","banana","cherry")
+print(this)
+y=list(this)
+y.append("orange")
+y.remove("cherry")
+this=tuple(y)
+print(this)
