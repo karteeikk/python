@@ -46,6 +46,28 @@ print(t)
 print(u)
 print(v)
 
-x=" hello woels ? "
-print(x.strip())
+x="    !!!!hello woels!!!!!"
+print(x.strip())   #remove space start or end
+print(x.rstrip("!"))  #end sign remove
+print(x.endswith("!"))
+print(x.endswith("l",3,6))
 
+block="introduction kartik's world"
+print(block.capitalize())
+
+name="agdshAFDJ425"
+jas="fsdSAS"
+print(name.isalnum())
+print(jas.isalpha())
+print(name.isprintable())
+print(name.isspace())
+
+title="World Health Organization"
+print(title.istitle())
+
+temo="python very easy"
+print(temo.startswith("python"))
+print(temo.swapcase())
+
+suraj="the legend of india"
+print(suraj.title())
