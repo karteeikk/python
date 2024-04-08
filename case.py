@@ -7,7 +7,7 @@ match n:
     case 2:
         print("n is two")
     case _ if n>100:
-        print(" n is more than 1000")
+        print(" n is more than 100")
     case _ if n<0:
         print("n is negative")
     case _:

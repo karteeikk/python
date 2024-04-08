@@ -1,12 +1,13 @@
 import time
-x=time.strftime('%H:%M:%S')
-print(x)
-'''print(time.strftime('%H'))
-print(time.strftime('%M'))
-print(time.strftime('%S'))'''
-if int(time.strftime('%H'))<=12:
-        print("good morning")
-elif int(time.strftime('%H'))>=12 and int(time.strftime('%H'))<=17:
-    print("good afternoon")
+timestamp=time.strftime('%H:%M:%S')
+print(timestamp)
+hour=int(time.strftime('%H'))
+print(hour)
+print(type(hour))
+if (hour>0 and hour<12):
+    print("shubh prabhat")
+elif (hour>=12 and hour<=17):
+    print("shubh bapor")
 else:
-      print("good evening")
+    print("shubh ratri")
+    

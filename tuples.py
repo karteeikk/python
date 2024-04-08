@@ -1,6 +1,6 @@
 stuple=("apple","banana","apple","cherry")
 print(stuple)
-print(len(stuple))
+print(len(stuple)) 
 ss=("kiran",)
 print(ss)
 print(stuple[2])

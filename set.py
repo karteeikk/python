@@ -4,9 +4,12 @@ print(thisset)
 for x in thisset:
     print(x)
 print("banana"in thisset)
-thisset.add("orange")
+thisset.add("orange")              #add
 print(thisset)
-#thisset.clear()
-thisset.discard("alam")
+#thisset.clear()                   #clear               
+thisset.remove("alam")            #remove
 print(thisset)
+
+kartik=set()   #not kartik={}
+print(type(kartik))
 
