@@ -1,0 +1,1 @@
+print("\"har har mahadev\"how are you",32,33.3,sep="*")

@@ -1,4 +1,4 @@
 f=open("mytext.txt","w")
-git=("kiran kiran bhai")
+git=("kiran kiraaa bhai")
 f.writelines(git)
 f.close()

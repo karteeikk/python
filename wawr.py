@@ -1,5 +1,7 @@
 def temp(a,b):
     c=a+b
     return c
-print(temp(5,6))
+a=int(input())
+b=int(input())
+print(temp(a,b))
 

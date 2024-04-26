@@ -52,7 +52,7 @@ print(x.rstrip("!"))  #end sign remove
 print(x.endswith("!"))
 print(x.endswith("l",3,6))
 
-block="introduction kartik's world"
+block="introduction kartik world"
 print(block.capitalize())
 
 name="agdshAFDJ425"

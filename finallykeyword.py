@@ -8,6 +8,6 @@ def fun1():
         print("some error occured")
         return False
     finally:
-        print("your answer is this")
+        print("your answer is this always printed if use fun but not other")
 x=fun1()
 print(x)
